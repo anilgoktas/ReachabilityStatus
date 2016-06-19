@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ReachabilityStatus'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Convenient Reachability for Swift based on ReachabilitySwift'
 
   s.description      = <<-DESC
