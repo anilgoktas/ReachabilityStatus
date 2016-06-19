@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ReachabilityStatus'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Convenient Reachability for Swift based on ReachabilitySwift'
 
   s.description      = <<-DESC
@@ -10,7 +10,10 @@ Convenient reachability status class for Swift. Based on ReachabilitySwift
   s.homepage         = 'https://github.com/anilgoktas/ReachabilityStatus'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Anıl Göktaş' => 'goktas.anil@gmail.com' }
-  s.source           = { :git => 'https://github.com/anilgoktas/ReachabilityStatus.git', :tag => '0.1.1' }
+  s.source           = { 
+    :git => 'https://github.com/anilgoktas/ReachabilityStatus.git', 
+    :tag => 'v'+s.version.to_s 
+  }
   s.social_media_url = 'https://twitter.com/goktasanil'
 
   s.ios.deployment_target = '9.0'
