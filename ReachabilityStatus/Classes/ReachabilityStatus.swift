@@ -9,7 +9,7 @@
 import Foundation
 import ReachabilitySwift
 
-final class ReachabilityStatus {
+public final class ReachabilityStatus {
     
     class func current() -> Reachability.NetworkStatus {
         guard let networkReachability = try? Reachability.reachabilityForInternetConnection()
