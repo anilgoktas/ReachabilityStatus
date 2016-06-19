@@ -1,0 +1,16 @@
+PODS:
+  - ReachabilityStatus (0.1.0)
+
+DEPENDENCIES:
+  - ReachabilityStatus (from `../`)
+
+EXTERNAL SOURCES:
+  ReachabilityStatus:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReachabilityStatus: 91f779e9405f0c4e96a7e2508d04005794dc897a
+
+PODFILE CHECKSUM: 29bdb22bf2a38d5910a54e578f8ab37b9ea1eb5f
+
+COCOAPODS: 1.0.1
