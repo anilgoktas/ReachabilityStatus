@@ -12,13 +12,13 @@ Convenient reachability status class for Swift. Based on ReachabilitySwift
   s.author           = { 'Anıl Göktaş' => 'goktas.anil@gmail.com' }
   s.source           = { 
     :git => 'https://github.com/anilgoktas/ReachabilityStatus.git', 
-    :tag => 'v'+s.version.to_s 
+    :tag => s.version
   }
   s.social_media_url = 'https://twitter.com/goktasanil'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'ReachabilityStatus/**/*'
+  s.source_files = 'ReachabilityStatus/*'
   
   s.dependency 'ReachabilitySwift'
 end
