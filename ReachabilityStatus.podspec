@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ReachabilityStatus'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Convenient Reachability for Swift based on ReachabilitySwift'
 
   s.description      = <<-DESC
@@ -16,7 +16,7 @@ Convenient reachability status class for Swift. Based on ReachabilitySwift
   }
   s.social_media_url = 'https://twitter.com/goktasanil'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'ReachabilityStatus/*'
   

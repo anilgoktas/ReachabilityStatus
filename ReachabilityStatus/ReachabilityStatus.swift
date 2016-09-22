@@ -12,13 +12,13 @@ import ReachabilitySwift
 public final class ReachabilityStatus {
     
     public class func current() -> Reachability.NetworkStatus {
-        guard let networkReachability = try? Reachability.reachabilityForInternetConnection()
-        else { return .NotReachable }
+        guard let networkReachability = Reachability()
+        else { return .notReachable }
         return networkReachability.currentReachabilityStatus
     }
     
     public class func reachable() -> Bool {
-        return current() != .NotReachable
+        return current() != .notReachable
     }
     
 }
