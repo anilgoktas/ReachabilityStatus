@@ -16,7 +16,7 @@ Convenient reachability status class for Swift. Based on ReachabilitySwift
   }
   s.social_media_url = 'https://twitter.com/goktasanil'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'ReachabilityStatus/*'
   
