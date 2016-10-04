@@ -11,14 +11,14 @@ import ReachabilitySwift
 
 public final class ReachabilityStatus {
     
-    public class func current() -> Reachability.NetworkStatus {
+    public class var current: Reachability.NetworkStatus {
         guard let networkReachability = Reachability()
         else { return .notReachable }
         return networkReachability.currentReachabilityStatus
     }
     
-    public class func reachable() -> Bool {
-        return current() != .notReachable
+    public class var isReachable: Bool {
+        return current != .notReachable
     }
     
 }
